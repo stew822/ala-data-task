@@ -9,6 +9,7 @@ In order to integrate the GRIIS data, the scientific names in both datasets need
 
 ### Notes
 1. No Coordinate Reference System (CRS) was specified in the metadata for the ALA dataset. The terms in the field seem to mostly follow Darwin Core Terms (https://dwc.tdwg.org/terms/), however the field 'geodeticDatum' is missing. A quick google and download of ALA data suggests that the standard for that organisation is WGS84. To sense-check this assumption, the data was plotted in QGIS. As is typical of occurrence records, many were located around roads and waterways. Additionally, there was a cluster around the Australian National Botanic Gardens, indicating that WGS84 is the correct CRS. However, in a real situation, I would attempt to verify the CRS and other relevant details with the third-party before proceeding to ingest the data. 
+2. 193 records were located in New South Wales (Jervis Bay), rather than being contained to the ACT as specified. There were left in the dataset as it does not impact the visualisation.
 
 
 ### Data sources
