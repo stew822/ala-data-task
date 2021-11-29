@@ -1,0 +1,53 @@
+# ALA Data Analyst position
+
+# task
+Produce an informative visualisation based on the attached dataset, and accompanying
+code showing the steps required to explore the data and produce the diagram.
+
+There is no need to visualise every possible aspect of the 
+dataset (though you can try to do that if you'd like). Instead, seek to
+effectively highlight an aspect of the dataset that you think is particularly 
+interesting or valuable.
+
+The task is intended to take no longer than two hours.
+
+# data
+The data provided are taken from the ALA, and give 6,911 occurrence records for 
+reptiles recorded in the Australian Capital Territory. The columns are as follows:
+
+- recordID | unique identifier for this record, used by the ALA
+- decimalLatitude | latitude
+- decimalLongitude | longitude
+- eventDate | date of observation or collection
+- family | taxonomic family this species occurs in
+- scientificName | the species scientific name
+- taxonConceptID | unique identifier for this taxon, used by the ALA
+- dataResourceName | which institution provided the data
+- basisOfRecord | what 'type' of record this is
+- recordedBy | name of observer
+- ABS_SA2_region_2016 | the statistical area (SA2) this record occurs in
+
+# format
+You should generate a new GitHub (or similar) repository containing:
+
+1. a script showing the analytical steps taken to produce the visualisation,
+   including exploratory steps to investigate the data; and,
+2. the visualisation itself
+
+You should also take care to document your process carefully, using any combination
+of:
+
+- informative commit messages
+- commented code
+- a well-constructed README file
+- any other steps you consider important for others to interpret your code
+
+You can provide your visualisation in any format that you think would be most 
+informative, though there are extra 'points' for clarity, aesthetics, and effective 
+use of dynamic elements. Whatever output you choose, the result should be presented 
+clearly, with sufficient information that the reader can readily interpret the 
+content provided.
+
+# submission
+When complete, send an email containing the link to your GitHub repo to 
+martin.westgate@csiro.au
